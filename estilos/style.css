@@ -29,8 +29,19 @@ section.telefone{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    
+    /*-- Tamanho das imagens-- 
+        Para descobrir os tamanhos da imagem basta
+        abrir no gimp e ver em propriedades de imagem*/
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 78px;
+    left: 20px;
+    width: 269px;
+    height: 471px;
 }
