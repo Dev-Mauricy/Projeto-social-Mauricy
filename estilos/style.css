@@ -48,7 +48,7 @@ iframe#tela{
     Mas com os testes feitos, também pode ser feito com margin
     left e margin top--
     */
-    position: absolute;
+    position: relative;
     top: 78px;
     left: 20px;
     width: 267px;
