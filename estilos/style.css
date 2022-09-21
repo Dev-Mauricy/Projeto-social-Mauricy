@@ -19,12 +19,12 @@ body{
 
 }
 
-main{
+div.main{
     position: relative;
     height: 100vh;
 }
 
-section.telefone{
+div.telefone{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,4 +44,30 @@ iframe#tela{
     left: 20px;
     width: 269px;
     height: 471px;
+}
+
+div.redes-sociais{
+    text-align: right;  
+    padding-right: 2vw;
+}
+
+div.redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    /*Para conseguir colocar a sombra logo abaixo precisa
+    definir primeiro esse atributo */
+    box-sizing: border-box;
+}
+
+/*Quando o mouse estiver em cima dos icones-menus*/
+div.redes-sociais img:hover{
+    border: 2px solid white;
+    /*Posicionando para destacar*/
+    transform: translate(-3px, -3px);
+    /*Como mexeu na posição, temos que refazer a sombra para
+    ficar correta*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    transition: transform 0.2s, border 1s;
 }
