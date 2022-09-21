@@ -69,5 +69,6 @@ div.redes-sociais img:hover{
     /*Como mexeu na posição, temos que refazer a sombra para
     ficar correta*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    /*Delay para animação feita acima*/
     transition: transform 0.2s, border 1s;
 }
