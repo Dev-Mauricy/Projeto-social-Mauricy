@@ -41,7 +41,14 @@ div.telefone{
 }
 
 iframe#tela{
-    position: relative;
+    /* 
+    --POSICIONAMENTO TELA
+    O posicionamento foi feito com relative para poder colocar 
+    o top e o left
+    Mas com os testes feitos, também pode ser feito com margin
+    left e margin top--
+    */
+    position: absolute;
     top: 78px;
     left: 20px;
     width: 267px;
