@@ -7,7 +7,7 @@
    }
 
    /*TIRAR O SCROLL DA PAGINA
-   Para tirar o scroll foi utilizado esse webkit*/
+   Para tirar o scroll do iframe foi utilizado esse webkit*/
    ::-webkit-scrollbar{
     width: 0px;
     height: 0px;

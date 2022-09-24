@@ -27,7 +27,7 @@ body{
 
 div.main{
     position: relative;
-    background-color: lightcoral;
+    background-image: linear-gradient(to bottom, #9B1C2F, #141414, #8F6990);
     height: 100vh;
 }
 
@@ -63,14 +63,15 @@ iframe#tela{
 }
 
 div.redes-sociais{
-    position: absolute;
-    padding-left: 40.5vw;
-    bottom: 10vh;
-    display: block;
+    text-align: right;
+    padding-right: 2vw;
+
+    
+    
 }
 
 div.redes-sociais img{
-    width: 40px;
+    width: 50px;
     margin: 10px;
     /*Para deixar as imagens em circulos*/
     border-radius: 50%;
