@@ -4,23 +4,30 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    /*Tirando toda a margin e o padding da página*/
 }
 
 html, body{
     height: 100vh;
     width: 100vw;
     background-color: black;
+    /*Colocando o (tamanho máximo) no documento*/
 }
 
 body{
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    /*Imagem de fundo da página
+    - background-size: cover - Para cobrir toda a tela
+    - background-attachment: fixed - Para que a imagem fique
+      fixa ao fundo*/
 
 }
 
 div.main{
     position: relative;
+    background-color: lightcoral;
     height: 100vh;
 }
 
@@ -56,12 +63,14 @@ iframe#tela{
 }
 
 div.redes-sociais{
-    text-align: right;  
-    padding-right: 2vw;
+    position: absolute;
+    padding-left: 38.5vw;
+    bottom: 10vh;
+    display: block;
 }
 
 div.redes-sociais img{
-    width: 50px;
+    width: 40px;
     margin: 10px;
     /*Para deixar as imagens em circulos*/
     border-radius: 50%;
